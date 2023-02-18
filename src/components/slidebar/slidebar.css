@@ -1,0 +1,117 @@
+*{
+    border: none;
+}
+.slidebar__container {
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* padding: 1rem 4rem; */
+    font-family: var(--font-family);
+}
+.silde__container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    /* align-items: center; */
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+.location {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 45%;
+    color: var(--text-color);
+}
+.location form{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+input {
+    margin: 0px 10px;
+    /* padding: 0px 0px 0px 0px; */
+    border-bottom: 2px solid #00000074;
+    color: rgb(255 255 255 / 96%);
+    /* height: 72px; */
+    background: transparent;
+    width: 80%;
+}
+button {
+    width:50px;
+    height: 50px;
+    background-color: var(--button-color);
+    cursor: pointer;
+}
+.recent-location {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px 10px;
+}
+.recent-location p{
+    margin: 10px 0;
+}
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 45%;
+}
+.weather-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 10px;
+}
+.weather-heading h2 {
+    font-size: 1.5rem;
+    color: rgb(248, 248, 248);
+    margin-bottom: 20px;
+}
+.about-cloud {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fcfcfccb;
+}
+.about-humidity {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color: #fcfcfccb;
+}
+.about-wind {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color:#fcfcfccb;
+}
+.about-pressure {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    color:#fcfcfccb;
+}
+.horizontal-line {
+    width: 100%;
+    outline: 1px solid #fcfcfccb!important;
+}

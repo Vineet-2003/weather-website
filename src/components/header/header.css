@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    font-family: var(--font-family);
+    color: #ffffffb4;
+    height: 100%;
+}
+.container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.container-heading h1 {
+    font-size: 2.5rem;
+}
+.container-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+.temp{
+    display: flex;
+    margin: 5px 10px;
+}
+.temp p {
+    font-size: 5rem;
+    font-weight: bold;
+}
+.city-name {
+    margin: 5px 10px;
+}
+.city-name p:nth-child(1){
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.weather-images {
+    margin: 5px 10px;
+}
+.weather-images img{
+    width: 2.5rem;
+}
